@@ -4,7 +4,7 @@
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
-        <title>Método Tomatis en Venezuela </title>
+        <title>Método Tomatis en Venezuela1 </title>
         <meta name="keywords" content="Tomatis, Tomatis Caracas, Metodo Tomatis, Terapia Auditiva, Tomatis Venezuela" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <script type="text/javascript" src="script.js"></script>
