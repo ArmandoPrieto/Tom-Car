@@ -1,4 +1,0 @@
-[31-Jul-2011 20:49:07] PHP Warning:  include(menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/terapiad/public_html/galeria.php on line 139
-[31-Jul-2011 20:49:07] PHP Warning:  include(menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/terapiad/public_html/galeria.php on line 139
-[31-Jul-2011 20:49:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'menu.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/terapiad/public_html/galeria.php on line 139
-[31-Jul-2011 22:46:52] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/terapiad/public_html/galeria.php on line 269
