@@ -234,7 +234,7 @@
                 </div>
                 <div class="nav">
                     <ul class="artmenu">
-                        <li id="principal" ><a class="active"><span><span>PRINCIPAL</span></span></a></li>
+                        <li id="principal" ><a class="active"><span><span>PRINCIPAL1</span></span></a></li>
                         <li id="servicios"><a ><span><span>SERVICIOS</span></span></a>
                                     </li>
                         <!--<li id="equipo"><a ><span><span>EQUIPO</span></span></a></li>-->
