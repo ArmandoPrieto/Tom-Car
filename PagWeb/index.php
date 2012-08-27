@@ -42,6 +42,7 @@
     
 	
 	$(document).ready(function(){
+           
 		SexyLightbox.initialize({color:'blanco', dir: 'sexy-lightbox-2.3/jQuery/sexyimages'});
 		
  $("#bienvenida").click();
@@ -52,39 +53,44 @@
  
  }
  
-	<?php
 	
+	
+	<?php
+if (isset($_GET['pos'])) {
 	if($_GET['pos']=="servicios"){
 	echo "$('#contenedor').load('servicios.htm');
 	clean();
 	$('#servicios').eq(0).find('a').addClass('active');
 	";
-	
+
 	}else if($_GET['pos']=="testimonios"){
 	echo "$('#contenedor').load('testimonios.htm');
 	clean();
 	$('#testimonios').eq(0).find('a').addClass('active');
 	";
-	
+
 	}else if($_GET['pos']=="contactanos"){
 	echo "$('#contenedor').load('contactanos.htm');
 	clean();
 	$('#principal').eq(0).find('a').addClass('active');
 	";
-	
+
 	}else if($_GET['pos']=="tomatis"){
 	echo "$('#contenedor').load('development.htm');
 	clean();
 	$('#development').eq(0).find('a').addClass('active');
 	";
-	
-	}else{
+
+	}
+}else{
 	echo "$('#contenedor').load('principal.htm');
 	clean();
 	$('#principal').eq(0).find('a').addClass('active');
 	";
 	} 
 		?>
+	 
+		
 		
 		$("#jquery_jplayer").jPlayer({
 		ready: function () {
@@ -180,7 +186,9 @@
 });
 		
 		
-		</script>
+		
+             
+         </script>
 
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     <!--[if IE 6]><link rel="stylesheet" href="style.ie6.css" type="text/css" media="screen" /><![endif]-->
